@@ -1,0 +1,155 @@
+body {
+	font-family: 'Arial', serif;
+}
+
+footer {
+	text-align: center;
+	border-top: 3px solid #4a4a4a;
+	margin-top: 20px;
+}	
+
+.nav {
+    position: fixed;
+	left: 60%;
+	text-align: center;
+	height: 30px;
+	width: 40%;
+	
+	z-index: 5;
+	background-color: beige;
+}
+
+.nav > li {
+	display: inline-block;
+}
+
+
+.header {
+	background-image: url('./images/Hazel_Moe.jpg');
+	background-position: center;
+	height: 800px;
+	text-align: center;
+}
+
+h1 {
+  color: yellow;
+}	
+
+h3 {
+	width: 200px;
+}
+
+li {
+  font-size: 20px;	
+}
+
+
+.recipe {
+	background-color: white;
+}
+
+img {
+	max-width: 100%;
+	max-height: 200px;
+}
+
+.breakfast {
+	background-color: beige;
+	border-top: 2px solid #4a4a4a;
+	display: grid;
+	grid-template-rows: 500px;
+	grid-auto-rows: 500px;
+	grid-auto-flow: rows;
+	grid-template-columns: 18% 18% 18% 18% 18%;
+	grid-gap: 2.5%;
+}
+
+.lunch {
+	background-color: beige;
+	border-top: 2px solid #4a4a4a;
+	display: grid;
+	grid-template-rows: 500px;
+	grid-auto-rows: 500px;
+	grid-auto-flow: rows;
+	grid-template-columns: 18% 18% 18% 18% 18%;
+	grid-gap: 2.5%;
+}
+
+.dinner {
+	background-color: beige;
+	border-top: 2px solid #4a4a4a;
+	display: grid;
+	grid-template-rows: 500px;
+	grid-auto-rows: 500px;
+	grid-auto-flow: rows;
+	grid-template-columns: 18% 18% 18% 18% 18%;
+	grid-gap: 2.5%;
+}
+
+.desert {
+	background-color: beige;
+	border-top: 2px solid #4a4a4a;
+	display: grid;
+	grid-template-rows: 500px;
+	grid-auto-rows: 500px;
+	grid-auto-flow: rows;
+	grid-template-columns: 18% 18% 18% 18% 18%;
+	grid-gap: 2.5%;
+}
+
+.sides {
+	background-color: beige;
+	border-top: 2px solid #4a4a4a;
+	display: grid;
+	grid-template-rows: 500px;
+	grid-auto-rows: 500px;
+	grid-auto-flow: rows;
+	grid-template-columns: 18% 18% 18% 18% 18%;
+	grid-gap: 2.5%;
+}
+
+.snacks {
+	background-color: beige;
+	border-top: 2px solid #4a4a4a;
+	display: grid;
+	grid-template-rows: 500px;
+	grid-auto-rows: 500px;
+	grid-auto-flow: rows;
+	grid-template-columns: 18% 18% 18% 18% 18%;
+	grid-gap: 2.5%;
+}
+
+.drinks {
+	background-color: beige;
+	border-top: 2px solid #4a4a4a;
+	display: grid;
+	grid-template-rows: 500px;
+	grid-auto-rows: 500px;
+	grid-auto-flow: rows;
+	grid-template-columns: 18% 18% 18% 18% 18%;
+	grid-gap: 2.5%;
+}
+
+.other {
+	background-color: beige;
+	border-top: 2px solid #4a4a4a;
+	display: grid;
+	grid-template-rows: 500px;
+	grid-auto-rows: 500px;
+	grid-auto-flow: rows;
+	grid-template-columns: 18% 18% 18% 18% 18%;
+	grid-gap: 2.5%;
+}
+
+.description {
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.29;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #4a4a4a;
+  padding: 10px 0px 10px 10px;
+  border-top: 1px solid #4a4a4a;
+  background-color: white;
+}
