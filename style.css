@@ -46,6 +46,7 @@ li {
 
 .recipe {
 	background-color: white;
+	overflow: hidden;
 }
 
 img {
@@ -154,7 +155,7 @@ img {
 
 .description {
   font-family: Work Sans;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
